@@ -15,7 +15,7 @@ import java.util.Map;
  *     |       ^       ^       ^       ^
  *     |-------|-------|-------|-------|
  *            ctx1    ctx2    ctx3    ctx4
- * pipine流在整个netty里面类似于上图
+ * pipeline流在整个netty里面类似于上图
  * channel连接一条线，而ctx只是关联当前的handler和下一个handler
  *
  * 当调用ctx的事件传播的时候，比如write，是从ctx对应的当前handler向前传播:
