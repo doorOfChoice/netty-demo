@@ -13,3 +13,9 @@
 * ``demo5.protocol``   使用LengthFieldBasedFrameDecoder实现自定义协议
 
 * ``demo6.udp``        简单的udp c/s结构
+
+* ``demo7.trigger``    简单的触发器
+
+* ``demo8.socks5``     简单的socks5代理
+
+* ``origin``           原生的nio服务器
